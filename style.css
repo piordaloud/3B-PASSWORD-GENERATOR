@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dekko&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --salmao: #e7c994;
+    --marrom-claro: #c98a65;
+    --branco-cinza: #ddd9d9;
+    --laranja: #a7c309;
+    --cinza: #857777;
+    --font-titulo: "Dekko", cursive, monospace;
+    --font-texto: "Dekko", cursive, serif;
+}
+
+body{
+background-color: rgb(149, 140, 39);
+color: var(--branco-cinza);
+font-family: var(--font-texto);
+}
+
+.titulo-principal{
+font-family: var(--font-titulo);
+}
+
+.img-cadeado{
+    width: 5%;
+}
+
+.conteudo-senha{
+    background-color: var(--marrom-claro);
+    padding: 24px;
+    color: var(--cinza);
+    font-family:var(--font-texto);
+    font-size: 40px;
+}
